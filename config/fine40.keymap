@@ -25,10 +25,10 @@
 
 		default_layer {
 			bindings = <
-				&kp ESC       &kp Q    &kp W    &kp E    &kp R    &kp T     &kp Y       &kp U     &kp I     &kp O     &kp P     &kp BSPC
-				&mt LCTRL TAB &kp A    &kp S    &kp D    &kp F    &kp G     &kp H       &kp J     &kp K     &kp L     &kp SEMI  &kp RET
-				&kp LSHFT     &kp Z    &kp X    &kp C    &kp V    &kp B     &kp N       &kp M     &kp COMMA &kp DOT   &kp FSLH  &mo 3
-				&mo 1         &kp LGUI &kp NON_US_HASH &kp LALT &kp RALT &kp SPACE &lt 2 SPACE &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp C_PP
+				&kp ESC       &kp Q    &kp W           &kp E    &kp R    &kp T     &kp Y       &kp U     &kp I     &kp O     &kp P     &kp BSPC
+				&mt LCTRL TAB &kp A    &kp S           &kp D    &kp F    &kp G     &kp H       &kp J     &kp K     &kp L     &kp SEMI  &kp RET
+				&kp LSHFT     &kp Z    &kp X           &kp C    &kp V    &kp B     &kp N       &kp M     &kp COMMA &kp DOT   &kp UP    mo 3
+				&mo 1         &kp LGUI &kp LALT &kp NON_US_HASH &kp RALT &kp SPACE &lt 2 SPACE &kp FSLH  &&kp LEFT  &kp DOWN &kp RIGHT &kp C_PP
 			>;
 
 			sensor-bindings = <&inc_dec_kp DEL BSPC>;
@@ -38,8 +38,8 @@
 			bindings = <
 				&kp GRAVE      &none  &none  &none  &bootloader &none   &bt BT_SEL 0 &bt BT_SEL 1 &kp INS    &kp K_PWR   &kp PSCRN  &kp DEL
 				&mt LCTRL CLCK &none  &none  &none  &none       &none   &none        &none        &none      &none       &bt BT_CLR &trans
-				&trans         &none  &none  &none  &none       &none   &none        &none        &none      &none       &none      &kp RSHFT
-				&trans         &none  &none  &none  &none       &none   &none        &kp HOME     &kp PG_DN  &kp PG_UP   &kp END    &trans
+				&trans         &none  &none  &none  &none       &none   &none        &none        &none      &none       &kp PG_UP  &kp RSHFT
+				&trans         &none  &none  &none  &none       &none   &none        &none      &kp HOME     &kp PG_DN  &kp END    &trans
 			>;
 			
 			sensor-bindings = <&bt_encoder>; 
@@ -50,7 +50,7 @@
 				&kp UNDER &kp N1          &kp N2          &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9    &kp N0   &kp EQUAL
 				&kp LCTRL &none           &none           &none  &none  &none  &none  &none  &none    &none     &kp SQT  &kp NON_US_HASH
 				&trans    &kp NON_US_BSLH &trans          &none  &none  &none  &none  &none  &kp LBKT &kp RBKT  &none    &kp RSHFT
-				&trans    &none           &kp NON_US_BSLH &none  &none  &none  &none  &none  &none    &none     &none    &trans
+				&trans    &none           &none  &kp NON_US_BSLH &none  &none  &none  &none  &none    &none     &none    &trans
 			>;
 			
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
