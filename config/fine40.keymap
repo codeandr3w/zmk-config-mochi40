@@ -24,6 +24,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
+			label = "default";
 			bindings = <
 				&kp ESC       &kp Q    &kp W           &kp E    &kp R    &kp T     &kp Y       &kp U     &kp I     &kp O     &kp P     &kp BSPC
 				&mt LCTRL TAB &kp A    &kp S           &kp D    &kp F    &kp G     &kp H       &kp J     &kp K     &kp L     &kp SEMI  &kp RET
@@ -35,6 +36,7 @@
 		};
 
 		special {
+			label = "special"
 			bindings = <
 				&kp GRAVE      &none  &none  &none  &bootloader &none   &bt BT_SEL 0 &bt BT_SEL 1 &kp INS    &kp K_PWR   &kp PSCRN  &kp DEL
 				&mt LCTRL CLCK &none  &none  &none  &none       &none   &none        &none        &none      &none       &bt BT_CLR &trans
@@ -46,6 +48,7 @@
 		};
 
 		symbol {
+			label = "symbol";
 			bindings = <
 				&kp MINUS &kp N1          &kp N2          &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9    &kp N0   &kp EQUAL
 				&kp LCTRL &none           &none           &none  &none  &none  &none  &none  &none    &none     &kp SQT  &kp NON_US_HASH
@@ -57,6 +60,7 @@
 			};
 
 		fn_layer {
+			label = "fn";
 			bindings = <
 				&kp F1    &kp F2     &kp F3     &kp F4     &kp F5     &kp F6 &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12 
 				&kp LCTRL &none      &none      &none      &none      &none  &none   &none   &none   &none   &none   &trans
