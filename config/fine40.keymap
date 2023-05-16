@@ -36,7 +36,7 @@
 		};
 
 		special {
-			label = "special"
+			label = "special";
 			bindings = <
 				&kp GRAVE      &none  &none  &none  &bootloader &none   &bt BT_SEL 0 &bt BT_SEL 1 &kp INS    &kp K_PWR   &kp PSCRN  &kp DEL
 				&mt LCTRL CLCK &none  &none  &none  &none       &none   &none        &none        &none      &none       &bt BT_CLR &trans
