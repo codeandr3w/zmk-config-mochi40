@@ -39,7 +39,7 @@
 		special {
 			label = "special";
 			bindings = <
-				&kp GRAVE      &none  &none  &none  &bootloader &none   &bt BT_SEL 0 &out OUT_TOG &kp INS    &kp K_PWR   &kp PSCRN  &kp DEL
+				&kp ESC        &none  &none  &none  &bootloader &none   &bt BT_SEL 0 &out OUT_TOG &kp INS    &kp K_PWR   &kp PSCRN  &kp DEL
 				&mt LCTRL CLCK &none  &none  &none  &none       &none   &none        &none        &none      &none       &bt BT_CLR &trans
 				&trans         &none  &none  &none  &none       &none   &none        &none        &none      &none       &kp PG_UP  &kp RSHFT
 				&trans         &none  &none  &none  &none       &none   &none        &none      &kp HOME     &kp PG_DN  &kp END    &trans
@@ -51,7 +51,7 @@
 		symbol {
 			label = "symbol";
 			bindings = <
-				&kp ESC &kp N1          &kp N2          &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9    &kp N0   &kp EQUAL
+				&kp GRAVE &kp N1          &kp N2          &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9    &kp N0   &kp EQUAL
 				&kp LCTRL &none           &none           &none  &none  &none  &none  &none  &none    &none     &kp SQT  &kp NON_US_HASH
 				&trans    &kp NON_US_BSLH &trans          &none  &none  &none  &none  &none  &kp LBKT &kp RBKT  &none    &kp RSHFT
 				&trans    &none           &none  &kp NON_US_HASH &none  &none  &none  &none  &none    &none     &none    &trans
